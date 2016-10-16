@@ -1,0 +1,2 @@
+configure.bat -opensource -confirm-license -static -release -platform win32-g++ -qt-zlib -qt-pcre -qt-libpng -qt-libjpeg -qt-freetype -opengl desktop -qt-sql-sqlite -openssl
+ -openssl-linked -I C:\OpenSSL-Win32\include -L C:\OpenSSL-Win32\lib\VC\static OPENSSL_LIBS="-lUser32 -lAdvapi32 -lGdi32" OPENSSL_LIBS_DEBUG="-lssleay32MDd -llibeay32MDd" OPENSSL_LIBS_RELEASE="-lssleay32MD -llibeay32MD"
